@@ -9,7 +9,7 @@ class Image2Array:
     def __init__(self, root):
         """Initialize the application, setting up the GUI and default state."""
         self.root = root
-        self.root.title("Image to Bitmap and Array Converter")
+        self.root.title("Image2Array")
 
         # Dark mode flag
         self.dark_mode = True

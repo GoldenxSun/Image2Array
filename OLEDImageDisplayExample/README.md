@@ -96,8 +96,8 @@ void setup() {
 
 If you'd like to display your own image:
 
-1. Convert your image to a bitmap array using an image-to-array converter.
-2. Replace the `example[]` array in the code with your bitmap array.
+1. Convert your image to a PROGMEM array using the [Image2Array](https://github.com/GoldenxSun/Image2Array) converter.
+2. Replace the `example[]` array in the code with your PROGMEM array.
 3. Adjust the `BITMAP_WIDTH` and `BITMAP_HEIGHT` macros to match the dimensions of your image.
 
 ## Credits
